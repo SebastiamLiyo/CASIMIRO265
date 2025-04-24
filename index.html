@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino Premium 24/7</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-image: url('https://img.freepik.com/foto-gratis/estilo-vida-fotorrealista-casino_23-2151037033.jpg?semt=ais_hybrid&w=740');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+        }
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 2rem;
+            border-radius: 1rem;
+            max-width: 600px;
+            margin: auto;
+        }
+        h1 {
+            font-size: 2.5rem;
+            animation: glow 2s infinite alternate ease-in-out;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            background-color: #25D366;
+            color: white;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            animation: pulse 2s infinite;
+            text-decoration: none;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .fade-in {
+            animation: fadeIn 2s ease-in-out;
+        }
+        .slide-up {
+            animation: slideUp 1.2s ease-out;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @keyframes slideUp {
+            0% { transform: translateY(30px); opacity: 0; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes glow {
+            0% { text-shadow: 0 0 5px #fff, 0 0 10px #ffd700, 0 0 15px #ff8c00; }
+            100% { text-shadow: 0 0 10px #fff, 0 0 20px #ffd700, 0 0 30px #ff8c00; }
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay fade-in slide-up">
+        <h1>🎰 BIENVENIDOS, CREA TU USUARI@ AHORA!</h1>
+        <p>La plataforma más exclusiva de juegos online, atendemos <strong>24/7</strong>.</p>
+        <p>📱 ¡Disfrutá desde tu celu y ganá al instante!</p>
+        <a class="btn" href="#" onclick="redirigir()">📲 ESCRIBINOS POR WTT!</a>
+    </div>
+
+    <div style="margin-top: 2rem; padding: 2rem; background-color: rgba(0,0,0,0.8); color: white; text-align: center; animation: fadeIn 2s ease-in-out;">
+        <h2 style="font-size: 1.8rem; margin-bottom: 1rem;">⏰ ¡Atención 24/7 garantizada!</h2>
+        <p style="font-size: 1.1rem;">Miles de usuarios ya ganaron con nuestra plataforma exclusiva. Unite hoy y sé parte de los próximos ganadores.</p>
+        <img src="https://cdn.pixabay.com/photo/2017/08/10/03/29/winner-2616022_1280.jpg" alt="Usuarios ganando" style="margin-top: 1.5rem; max-width: 90%; height: auto; border-radius: 10px; box-shadow: 0 0 10px rgba(255,255,255,0.5);">
+        <div style="margin-top: 1rem; font-size: 1.5rem; color: gold;">
+            ⭐⭐⭐⭐⭐
+            <p style="font-size: 1rem; color: white; margin-top: 0.5rem;">Calificación de nuestros usuarios</p>
+        </div>
+    </div>
+<script>
+    function redirigir() {
+        window.location.href = "https://wa.link/hrxgft";
+    }
+</script>
+</body>
+</html>
